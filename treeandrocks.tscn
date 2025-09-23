@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://gsqjwaequlcr"]
+
+[ext_resource type="Texture2D" uid="uid://ckyiuvdxcqdit" path="res://tree.png" id="1_15y1e"]
+[ext_resource type="Texture2D" uid="uid://jvwj3y2y121g" path="res://rock.jpeg" id="2_0cfai"]
+[ext_resource type="PackedScene" uid="uid://moujb42471es" path="res://crabandsponge.tscn" id="3_0cfai"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Tree" type="Sprite2D" parent="."]
+position = Vector2(-1219, 304.00003)
+scale = Vector2(2.3027778, 3.2166667)
+texture = ExtResource("1_15y1e")
+
+[node name="Tree2" type="Sprite2D" parent="."]
+position = Vector2(-1703, 417)
+scale = Vector2(2.1944444, 2.4722223)
+texture = ExtResource("1_15y1e")
+
+[node name="Tree3" type="Sprite2D" parent="."]
+position = Vector2(-699.5, 244.50003)
+scale = Vector2(2.1305556, 3.636111)
+texture = ExtResource("1_15y1e")
+
+[node name="Rock" type="Sprite2D" parent="."]
+position = Vector2(-167, 779.00006)
+scale = Vector2(0.77261907, 0.646789)
+texture = ExtResource("2_0cfai")
+
+[node name="Rock2" type="Sprite2D" parent="."]
+position = Vector2(-1911, 842)
+scale = Vector2(0.55714285, 0.52446485)
+texture = ExtResource("2_0cfai")
+
+[node name="Sprite2D" parent="." instance=ExtResource("3_0cfai")]
+position = Vector2(-1558, 317)

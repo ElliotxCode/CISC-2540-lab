@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://db26hxpsbluym"]
+
+[ext_resource type="Texture2D" uid="uid://bybno3vbkpmtq" path="res://mr crabs.webp" id="1_2kahd"]
+[ext_resource type="Texture2D" uid="uid://2b22k204rrv2" path="res://Spongebob.jpg" id="2_k1mso"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="MrCrabs" type="Sprite2D" parent="."]
+position = Vector2(546.63947, -167.41821)
+scale = Vector2(0.7187094, 0.65266234)
+texture = ExtResource("1_2kahd")
+offset = Vector2(-281.09613, -97)
+
+[node name="Spongebob" type="Sprite2D" parent="."]
+position = Vector2(-304.3053, -1150.7719)
+scale = Vector2(1.643433, 1.931874)
+texture = ExtResource("2_k1mso")
+offset = Vector2(-14, 478)
