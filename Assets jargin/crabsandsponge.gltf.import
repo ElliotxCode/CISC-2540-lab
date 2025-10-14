@@ -4,22 +4,20 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://clopy7pu6ga6f"
-path="res://.godot/imported/crabsandsponge.gltf-2ecdc940a21482bf773264c334ec02e7.scn"
+path="res://.godot/imported/crabsandsponge.gltf-9dfa90c1b5cf9e633469a9377d31c477.scn"
 
 [deps]
 
-source_file="res://crabsandsponge.gltf"
-dest_files=["res://.godot/imported/crabsandsponge.gltf-2ecdc940a21482bf773264c334ec02e7.scn"]
+source_file="res://Assets jargin/crabsandsponge.gltf"
+dest_files=["res://.godot/imported/crabsandsponge.gltf-9dfa90c1b5cf9e633469a9377d31c477.scn"]
 
 [params]
 
 nodes/root_type=""
 nodes/root_name=""
-nodes/root_script=null
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
 nodes/import_as_skeleton_bones=false
-nodes/use_name_suffixes=true
 nodes/use_node_type_suffixes=true
 meshes/ensure_tangents=true
 meshes/generate_lods=true
@@ -34,9 +32,6 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
-materials/extract=0
-materials/extract_format=0
-materials/extract_path=""
 _subresources={}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
